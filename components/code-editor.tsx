@@ -82,7 +82,7 @@ export function CodeEditor({ value, onChange }: CodeEditorProps) {
             spellCheck="false"
           />
           <pre
-            className="absolute inset-0 p-4 sm:p-6 font-mono text-sm text-muted-foreground pointer-events-none overflow-auto whitespace-pre-wrap wrap-break-word"
+            className="absolute inset-0 p-4 sm:p-6 font-mono text-sm text-muted-foreground pointer-events-none overflow-auto whitespace-pre-wrap break-words"
             dangerouslySetInnerHTML={{
               __html: `<code>${highlightCode(value)}</code>`,
             }}
