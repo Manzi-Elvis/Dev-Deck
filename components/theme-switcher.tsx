@@ -90,7 +90,7 @@ export function ThemeSwitcher() {
                 }`}
               >
                 <div className={`flex items-center gap-2`}>
-                  <div className={`w-4 h-4 rounded bg-linear-to-br ${schemeColors[scheme]}`} />
+                  <div className={`w-4 h-4 rounded bg-gradient-to-br ${schemeColors[scheme]}`} />
                   <span className="text-foreground">{schemeLabels[scheme]}</span>
                 </div>
               </button>
